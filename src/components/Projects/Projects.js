@@ -65,9 +65,9 @@ function Projects() {
             <ProjectCard
               imgPath={odooGarment}
               title="Garment Management System"
-              description="A web application for managing garment production processes, including sample, order, inventory and production management. It allows users to manage orders, track inventory levels, and generate production reports."
+              description="An Odoo-based application for managing garment production processes, including sample, order, inventory and production management. It allows users to manage orders, track inventory levels, and generate production reports."
               // ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
             />
           </Col>
 
