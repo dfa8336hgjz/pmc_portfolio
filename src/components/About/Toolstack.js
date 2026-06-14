@@ -3,11 +3,16 @@ import { Col, Row, OverlayTrigger, Tooltip } from "react-bootstrap";
 import {
   SiVisualstudiocode,
   SiPostman,
+  SiIntellijidea,
+  SiKibana,
+  SiIbm,
 } from "react-icons/si";
 
 function Toolstack() {
   const toolItems = [
     { id: 'vscode', icon: <SiVisualstudiocode />, name: 'Visual Studio Code' },
+    { id: 'intellij', icon: <SiIntellijidea />, name: 'IntelliJ IDEA' },
+    { id: 'kibana', icon: <SiKibana />, name: 'Kibana' },
     { id: 'postman', icon: <SiPostman />, name: 'Postman' },
   ];
 

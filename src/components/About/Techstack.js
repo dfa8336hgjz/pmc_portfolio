@@ -16,6 +16,8 @@ import {
   SiMysql,
   SiDocker,
   SiAmazonaws,
+  SiSpringboot,
+  SiTypescript,
 } from "react-icons/si";
 
 function Techstack() {
@@ -24,14 +26,16 @@ function Techstack() {
     { id: 'java', icon: <DiJava />, name: 'Java' },
     { id: 'cpp', icon: <CgCPlusPlus />, name: 'C++' },
     { id: 'javascript', icon: <DiJavascript1 />, name: 'JavaScript' },
+    { id: 'typescript', icon: <SiTypescript />, name: 'TypeScript' },
+    { id: 'springboot', icon: <SiSpringboot />, name: 'Spring Boot' },
+    { id: 'mysql', icon: <SiMysql />, name: 'MySQL' },
+    { id: 'postgresql', icon: <SiPostgresql />, name: 'PostgreSQL' },
     { id: 'react', icon: <DiReact />, name: 'React' },
     { id: 'nodejs', icon: <DiNodejs />, name: 'Node.js' },
     { id: 'mongodb', icon: <DiMongodb />, name: 'MongoDB' },
     { id: 'redis', icon: <SiRedis />, name: 'Redis' },
     { id: 'git', icon: <DiGit />, name: 'Git' },
     { id: 'docker', icon: <SiDocker />, name: 'Docker' },
-    { id: 'mysql', icon: <SiMysql />, name: 'MySQL' },
-    { id: 'postgresql', icon: <SiPostgresql />, name: 'PostgreSQL' },
     { id: 'aws', icon: <SiAmazonaws />, name: 'AWS' },
   ];
 
