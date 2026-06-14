@@ -5,7 +5,6 @@ import {
   SiPostman,
   SiIntellijidea,
   SiKibana,
-  SiIbm,
 } from "react-icons/si";
 
 function Toolstack() {
